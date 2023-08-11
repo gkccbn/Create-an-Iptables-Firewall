@@ -6,10 +6,10 @@ Firewall should be a stateful.
     Serve sample http service inside the server namespace
     Create iptables rules inside the firewall namespace and control traffic between the namespaces.
     Rules
-        Client1 can ping to server
-        Client2 can access to server for http
-        Client2 can ping to firewall
-        Client1 doesn't have ping permission to firewall
+        Client1 can ping to server,
+        Client2 can access to server for http,
+        Client2 can ping to firewall,
+        Client1 doesn't have ping permission to firewall,
         Client and server networks are can be access to the internet from firewall namespace via your host machine.
 
 Notes
