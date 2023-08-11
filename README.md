@@ -5,6 +5,7 @@ Firewall should be a stateful.
     Create veth for all namespaces and your host-to-firewall for network communication.
     Serve sample http service inside the server namespace
     Create iptables rules inside the firewall namespace and control traffic between the namespaces.
+    
     Rules:
         Client1 can ping to server,
         Client2 can access to server for http,
